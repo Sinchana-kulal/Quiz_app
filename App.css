@@ -1,0 +1,56 @@
+/* Page background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Quiz Card */
+.quiz-card {
+  width: 400px;
+  margin: 80px auto;        /* center horizontally */
+  background-color: rgb(210, 180, 249);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.quiz-card h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Question */
+.quiz-card h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Option buttons */
+.quiz-card button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(252, 252, 252);
+  cursor: pointer;
+}
+
+/* Hover effect */
+.quiz-card button:hover {
+  background-color: #e6e6e6;
+}
+
+/* Navigation buttons */
+.nav-buttons {
+  margin-top: 15px;
+}
+
+.nav-buttons button {
+  width: auto;
+  padding: 6px 12px;
+  margin-right: 5px;
+}
